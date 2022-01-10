@@ -36,7 +36,7 @@ model Deliveries {
 
   item_name  String
   created_at DateTime  @default(now())
-  ended_at   DateTime? @default(now())
+  ended_at   DateTime?
 
   @@map("deliveries")
 }
